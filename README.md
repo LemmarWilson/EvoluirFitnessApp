@@ -3,8 +3,11 @@
 ## Overview
 Evoluir is a fitness app is designed to provide personal trainers with a comprehensive toolset to manage their clients and business efficiently. The app includes features for scheduling, workout and nutrition planning, virtual training, progress tracking, exercise libraries, payment management, client communication, group class management, and fitness assessments. This document outlines the primary functionalities of the app.
 
-A deep dive LLD can be found [here](./Design_Doc/main.md).
 
+
+A deep dive can be found [here](./Design_Doc/main.md).
+
+**PLEASE NOTE**: This document is a work in progress and will be updated continuously as the project evolves. Some sections may currently be incomplete, outdated, or subject to change.
 ## Features
 
 ### 1. Client Scheduling and Booking Platform
@@ -18,7 +21,7 @@ A deep dive LLD can be found [here](./Design_Doc/main.md).
 - **Adjustments**: Easily adjust plans based on client progress and feedback.
 
 ### 3. Virtual Training and Live Streaming Service
-- **Live Streaming**: Support for live streaming of training sessions.
+- **Live Streaming**: Support for live-streaming of training sessions.
 - **Remote Coaching**: Allow trainers to provide real-time coaching to clients who can't attend in person.
 
 ### 4. Client Progress Tracking and Reporting App
@@ -50,35 +53,6 @@ A deep dive LLD can be found [here](./Design_Doc/main.md).
 - **Evaluation Reports**: Generate reports to evaluate client strengths and weaknesses.
 - **Program Tailoring**: Tailor training programs based on assessment results.
 
-[Back to Top](#top)
-
-## User Roles
-
-### 1. Personal Trainers
-- Manage client schedules and appointments.
-- Create and adjust workout and nutrition plans.
-- Conduct virtual training sessions.
-- Track client progress and generate reports.
-- Communicate with clients.
-- Organize group classes and events.
-- Conduct fitness assessments and tailor programs.
-
-### 2. Clients
-- Book and manage their training sessions.
-- Access personalized workout and nutrition plans.
-- Participate in virtual training sessions.
-- Track their own progress.
-- View exercise videos and instructions.
-- Make payments and manage subscriptions.
-- Communicate with their trainer.
-- Register for group classes and events.
-- Complete fitness assessments and receive tailored programs.
-
-[Back to Top](#top)
-
-## Conclusion
-This app aims to streamline the operations of personal trainers and enhance the training experience for clients. By incorporating these features, the app will provide a comprehensive solution for managing fitness training, client interactions, and business operations.
-A deep dive LLD can be found  [here](./Design_Doc/main.md).
 
 [Back to Top](#top)
 <a name="top"></a>

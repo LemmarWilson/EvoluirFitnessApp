@@ -1,9 +1,12 @@
+<a name="top"></a>
 # Evoluir Training App
 
 ## Table of Contents
 - [Problem Statement](#problem-statement)
 - [Architecture](#architecture)
-- [Components Architecture](#components-architecture)
+- [Core Components](#core-components)
+- [Security](#security)
+- [Scalability and Performance](#scalability-and-performance)
 
 ## Problem Statement
 
@@ -41,7 +44,7 @@ The architecture  is designed to be scalable, flexible, and secure, ensuring smo
 ### Components Architecture
 This section provides links to detailed explanations for each component of the app, allowing for a deep dive into their specific designs and implementations.
 
-1. [**Authentication and Authorization**](user_authentication.md)
+1. [**Authentication and Authorization**](user/user_authentication.md)
 2. **Workout and Nutrition Planning Tool**
 3. **Client Scheduling and Booking Platform**
 4. **Virtual Training and Live Streaming Service**
@@ -54,7 +57,7 @@ This section provides links to detailed explanations for each component of the a
 
 [Back to Top](#top)
 
-### Core Components
+## Core Components
 
 1. **Frontend (React Native)**
    - **Client Application**: Built using React Native, the client application provides a responsive and intuitive user interface for both mobile and web users. It communicates with the backend services through RESTful APIs.
@@ -84,15 +87,14 @@ This section provides links to detailed explanations for each component of the a
 
    [Back to Top](#top)
 
-### Security
+## Security
 - **Data Encryption**: Ensures that all sensitive data, both in transit and at rest, is encrypted using industry-standard protocols like SSL/TLS.
 - **Access Control**: Implements role-based access control (RBAC) to restrict access to different parts of the application based on user roles and permissions.
 - **Regular Audits and Monitoring**: Conducts regular security audits and continuous monitoring using AWS CloudWatch and AWS Config to detect and respond to potential security threats promptly.
 
-### Scalability and Performance
+## Scalability and Performance
 - **Load Balancing**: Utilizes AWS Elastic Load Balancing to distribute incoming requests across multiple instances of the application to ensure high availability and reliability.
 - **Auto-Scaling**: AWS Auto Scaling automatically adjusts the number of running instances based on traffic and usage patterns to handle varying loads efficiently.
 - **Caching**: Implements caching strategies using Amazon ElastiCache to improve performance and reduce latency.
 
 [Back to Top](#top)
-<a name="top"></a>
